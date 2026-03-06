@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore private chef services including private dining, event catering, cooking classes, and meal prep by Chef Alexander Reed.">
+    <title>Services | Chef Alexander Reed - Private Chef</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Lato:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Skip to main content link for accessibility -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    
+    <!-- Header -->
+    <header class="header">
+        <div class="header__container">
+            <a href="home.html" class="header__logo">
+                <span class="header__logo-icon">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                        <path d="M16 2C14.5 2 13.5 3 13.5 4.5C13.5 5.5 14 6 14 7C14 8.5 12.5 9.5 12.5 11C12.5 12.5 13.5 13 14 14C14.5 15 14.5 16 14.5 17C14.5 18.5 13 19.5 13 21C13 22.5 14 23 14.5 24C15 25 15 26 15 27C15 28.5 14 29.5 14 30H18C18 29.5 17 28.5 17 27C17 26 17 25 17.5 24C18 23 19 22.5 19 21C19 19.5 17.5 18.5 17.5 17C17.5 16 17.5 15 18 14C18.5 13 19.5 12.5 19.5 11C19.5 9.5 18 8.5 18 7C18 6 18.5 5.5 18.5 4.5C18.5 3 17.5 2 16 2Z" fill="currentColor"/>
+                        <circle cx="16" cy="16" r="14" stroke="currentColor" stroke-width="2" fill="none"/>
+                    </svg>
+                </span>
+                <span class="header__logo-text">
+                    <span class="header__logo-name">Alexander Reed</span>
+                    <span class="header__logo-title">Private Chef</span>
+                </span>
+            </a>
+            
+            <nav class="header__nav" id="main-nav" aria-label="Main navigation">
+                <ul class="header__nav-list">
+                    <li><a href="home.html" class="header__nav-link">Home</a></li>
+                    <li><a href="about.html" class="header__nav-link">About</a></li>
+                    <li><a href="services.html" class="header__nav-link header__nav-link--active" aria-current="page">Services</a></li>
+                    <li><a href="gallery.html" class="header__nav-link">Gallery</a></li>
+                    <li><a href="contact.html" class="header__nav-link">Contact</a></li>
+                </ul>
+            </nav>
+            
+            <button class="header__menu-toggle" id="menu-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Toggle navigation menu">
+                <span class="header__menu-icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </span>
+            </button>
+        </div>
+    </header>
+    
+    <!-- Main Content -->
+    <main id="main-content">
+        <!-- Page Hero -->
+        <section class="page-hero">
+            <div class="page-hero__container">
+                <div class="page-hero__content">
+                    <span class="page-hero__label">What I Offer</span>
+                    <h1 class="page-hero__title">Services</h1>
+                    <p class="page-hero__description">
+                        Bespoke culinary experiences tailored to your needs
+                    </p>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Services Overview -->
+        <section class="services-overview">
+            <div class="services-overview__container">
+                <div class="services-overview__intro">
+                    <p class="services-overview__text">
+                        Every service I offer is fully customizable to match your vision, dietary preferences, 
+                        and occasion. Whether you're planning an intimate dinner or a grand celebration, 
+                        I bring the same dedication to excellence and attention to detail.
+                    </p>
+                </div>
+                
+                <!-- Quick Navigation -->
+                <nav class="services-nav" aria-label="Services navigation">
+                    <a href="#private-dining" class="services-nav__link">
+                        <span class="services-nav__icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                                <path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="currentColor" stroke-width="2"/>
+                                <path d="M2 17L12 22L22 17" stroke="currentColor" stroke-width="2"/>
+                                <path d="M2 12L12 17L22 12" stroke="currentColor" stroke-width="2"/>
+                            </svg>
+                        </span>
+                        <span>Private Dining</span>
+                    </a>
+                    <a href="#catering" class="services-nav__link">
+                        <span class="services-nav__icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                                <rect x="3" y="3" width="18" height="18" rx="2" stroke="currentColor" stroke-width="2"/>
+                                <path d="M3 9H21" stroke="currentColor" stroke-width="2"/>
+                                <path d="M9 21V9" stroke="currentColor" stroke-width="2"/>
+                            </svg>
+                        </span>
+                        <span>Event Catering</span>
+                    </a>
+                    <a href="#cooking-classes" class="services-nav__link">
+                        <span class="services-nav__icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                                <path d="M12 14L12 2M12 2L7 7M12 2L17 7" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                                <path d="M5 19V22H19V19" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                                <path d="M2 15C2 13 3.5 11 6 11H18C20.5 11 22 13 22 15C22 17 20.5 19 18 19H6C3.5 19 2 17 2 15Z" stroke="currentColor" stroke-width="2"/>
+                            </svg>
+                        </span>
+                        <span>Cooking Classes</span>
+                    </a>
+                    <a href="#meal-prep" class="services-nav__link">
+                        <span class="services-nav__icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                                <rect x="3" y="6" width="18" height="15" rx="2" stroke="currentColor" stroke-width="2"/>
+                                <path d="M3 10H21" stroke="currentColor" stroke-width="2"/>
+                                <path d="M7 6V4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                                <path d="M17 6V4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                        </span>
+                        <span>Meal Prep</span>
+                    </a>
+                </nav>
+            </div>
+        </section>
+        
+        <!-- Private Dining Section -->
+        <section class="service-detail" id="private-dining">
+            <div class="service-detail__container">
+                <div class="service-detail__image-wrapper">
+                    <img src="images/event-private-dining.png" alt="Elegant private dining setup" class="service-detail__image" loading="lazy">
+                    <span class="service-detail__badge">Most Popular</span>
+                </div>
+                
+                <div class="service-detail__content">
+                    <span class="service-detail__label">Signature Service</span>
+                    <h2 class="service-detail__title">Private Dining Experience</h2>
+                    
+                    <div class="service-detail__description">
+                        <p>
+                            Transform your home into an exclusive restaurant with a custom multi-course 
+                            dining experience. I handle everything—from menu planning and ingredient 
+                            sourcing to cooking and cleanup—so you can focus on enjoying the moment.
+                        </p>
+                        <p>
+                            Each private dining experience is uniquely crafted to reflect your tastes, 
+                            dietary needs, and the spirit of your occasion. Whether it's a romantic 
+                            dinner for two or a celebration with friends, expect restaurant-quality 
+                            cuisine in the comfort of your own space.
+                        </p>
+                    </div>
+                    
+                    <div class="service-detail__features">
+                        <h3 class="service-detail__features-title">What's Included</h3>
+                        <ul class="service-detail__features-list">
+                            <li>
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                                    <path d="M8 12L11 15L16 9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/>
+                                </svg>
+                                <span>Custom menu development based on your preferences</span>
+                            </li>
+                            <li>
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                                    <path d="M8 12L11 15L16 9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/>
+                                </svg>
+                                <span>Premium, locally-sourced ingredients</span>
+                            </li>
+                            <li>
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                                    <path d="M8 12L11 15L16 9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/>
+                                </svg>
+                                <span>Wine pairing recommendations</span>
+                            </li>
+                            <li>
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                                    <path d="M8 12L11 15L16 9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/>
+                                </svg>
+                                <span>Full service: cooking, plating, and cleanup</span>
+                            </li>
+                            <li>
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                                    <path d="M8 12L11 15L16 9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/>
+                                </svg>
+                                <span>Printed menus for your guests</span>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div class="service-detail__pricing">
+                        <div class="pricing-card">
+                            <span class="pricing-card__label">Starting at</span>
+                            <span class="pricing-card__price">$175</span>
+                            <span class="pricing-card__unit">per person</span>
+                            <ul class="pricing-card__includes">
+                                <li>4-course minimum</li>
+                                <li>2-12 guests</li>
+                                <li>All-inclusive pricing</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <a href="contact.html" class="btn btn--primary">
+                        <span>Book Private Dining</span>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                            <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Catering Section -->
+        <section class="service-detail service-detail--alt" id="catering">
+            <div class="service-detail__container">
+                <div class="service-detail__content">
+                    <span class="service-detail__label">For Your Events</span>
+                    <h2 class="service-detail__title">Event Catering</h2>
+                    
+                    <div class="service-detail__description">
+                        <p>
+                            From corporate gatherings to milestone celebrations, I bring culinary 
+                            excellence to events of all sizes. My catering services combine the 
+                            quality of fine dining with the flexibility to suit any occasion.
+                        </p>
+                        <p>
+                            Every event menu is thoughtfully designed to accommodate your guest count, 
+                            venue constraints, and event style. From passed appetizers to seated 
+                            multi-course dinners, I create memorable culinary experiences that your 
+                            guests will talk about long after the event.
+                        </p>
+                    </div>
+                    
+                    <div class="service-detail__features">
+                        <h3 class="service-detail__features-title">Catering Options</h3>
+                        <ul class="service-detail__features-list">
+                            <li>
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                                    <path d="M8 12L11 15L16 9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/>
+                                </svg>
+                                <span>Passed hors d'oeuvres and cocktail hour menus</span>
+                            </li>
+                            <li>
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                                    <path d="M8 12L11 15L16 9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/>
+                                </svg>
+                                <span>Buffet stations and family-style service</span>
+                            </li>
+                            <li>
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                                    <path d="M8 12L11 15L16 9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/>
+                                </svg>
+                                <span>Plated dinner service for seated events</span>
+                            </li>
+                            <li>
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                                    <path d="M8 12L11 15L16 9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/>
+                                </svg>
+                                <span>Staff coordination and service</span>
+                            </li>
+                            <li>
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                                    <path d="M8 12L11 15L16 9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/>
+                                </svg>
+                                <span>Equipment and rentals coordination</span>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div class="service-detail__pricing">
+                        <div class="pricing-card">
+                            <span class="pricing-card__label">Starting at</span>
+                            <span class="pricing-card__price">$85</span>
+                            <span class="pricing-card__unit">per person</span>
+                            <ul class="pricing-card__includes">
+                                <li>15-100+ guests</li>
+                                <li>Customizable packages</li>
+                                <li>Staff included</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <a href="contact.html" class="btn btn--primary">
+                        <span>Plan Your Event</span>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                            <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                </div>
+                
+                <div class="service-detail__image-wrapper">
+                    <img src="images/event-catering.png" alt="Elegant catering spread" class="service-detail__image" loading="lazy">
+                </div>
+            </div>
+        </section>
+        
+        <!-- Cooking Classes Section -->
+        <section class="service-detail" id="cooking-classes">
+            <div class="service-detail__container">
+                <div class="service-detail__image-wrapper">
+                    <img src="images/cooking-class.png" alt="Hands-on cooking class" class="service-detail__image" loading="lazy">
+                </div>
+                
+                <div class="service-detail__content">
+                    <span class="service-detail__label">Learn from a Pro</span>
+                    <h2 class="service-detail__title">Private Cooking Classes</h2>
+                    
+                    <div class="service-detail__description">
+                        <p>
+                            Ever wanted to learn professional cooking techniques in your own kitchen? 
+                            My private cooking classes offer hands-on instruction tailored to your 
+                            skill level and culinary interests.
+                        </p>
+                        <p>
+                            Whether you want to master the perfect steak, learn pasta from scratch, 
+                            or explore a specific cuisine, I bring all the ingredients and expertise 
+                            to you. Classes make wonderful gifts, date nights, or team-building activities.
+                        </p>
+                    </div>
+                    
+                    <div class="service-detail__features">
+                        <h3 class="service-detail__features-title">Class Options</h3>
+                        <div class="class-options">
+                            <div class="class-option">
+                                <h4 class="class-option__title">Technique Focus</h4>
+                                <p class="class-option__description">Knife skills, sauce making, pastry basics, and more</p>
+                            </div>
+                            <div class="class-option">
+                                <h4 class="class-option__title">Cuisine Exploration</h4>
+                                <p class="class-option__description">Italian, French, Asian, Mexican—choose your adventure</p>
+                            </div>
+                            <div class="class-option">
+                                <h4 class="class-option__title">Date Night</h4>
+                                <p class="class-option__description">Couples cook a romantic meal together</p>
+                            </div>
+                            <div class="class-option">
+                                <h4 class="class-option__title">Group Classes</h4>
+                                <p class="class-option__description">Fun for friends, families, or team building</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="service-detail__pricing">
+                        <div class="pricing-card">
+                            <span class="pricing-card__label">Starting at</span>
+                            <span class="pricing-card__price">$300</span>
+                            <span class="pricing-card__unit">per session</span>
+                            <ul class="pricing-card__includes">
+                                <li>2-3 hour session</li>
+                                <li>Up to 4 participants</li>
+                                <li>All ingredients included</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <a href="contact.html" class="btn btn--primary">
+                        <span>Book a Class</span>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                            <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Meal Prep Section -->
+        <section class="service-detail service-detail--alt" id="meal-prep">
+            <div class="service-detail__container">
+                <div class="service-detail__content">
+                    <span class="service-detail__label">Weekly Service</span>
+                    <h2 class="service-detail__title">Personal Chef & Meal Prep</h2>
+                    
+                    <div class="service-detail__description">
+                        <p>
+                            Enjoy restaurant-quality meals throughout the week without the effort. 
+                            My personal chef service brings weekly meal prep to your home, creating 
+                            customized dishes that fit your dietary goals and taste preferences.
+                        </p>
+                        <p>
+                            Each visit, I prepare multiple meals tailored to your schedule—ready to 
+                            heat and eat whenever you need them. Perfect for busy professionals, 
+                            families, or anyone who values delicious, healthy food without the time 
+                            commitment of daily cooking.
+                        </p>
+                    </div>
+                    
+                    <div class="service-detail__features">
+                        <h3 class="service-detail__features-title">Service Includes</h3>
+                        <ul class="service-detail__features-list">
+                            <li>
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                                    <path d="M8 12L11 15L16 9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/>
+                                </svg>
+                                <span>Customized menu planning each week</span>
+                            </li>
+                            <li>
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                                    <path d="M8 12L11 15L16 9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/>
+                                </svg>
+                                <span>Grocery shopping and ingredient sourcing</span>
+                            </li>
+                            <li>
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                                    <path d="M8 12L11 15L16 9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/>
+                                </svg>
+                                <span>Meal preparation and proper storage</span>
+                            </li>
+                            <li>
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                                    <path d="M8 12L11 15L16 9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/>
+                                </svg>
+                                <span>Reheating instructions for each dish</span>
+                            </li>
+                            <li>
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                                    <path d="M8 12L11 15L16 9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/>
+                                </svg>
+                                <span>Kitchen cleanup after each visit</span>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div class="service-detail__pricing">
+                        <div class="pricing-card">
+                            <span class="pricing-card__label">Starting at</span>
+                            <span class="pricing-card__price">$250</span>
+                            <span class="pricing-card__unit">per visit</span>
+                            <ul class="pricing-card__includes">
+                                <li>5 meals for 2 people</li>
+                                <li>Weekly or bi-weekly</li>
+                                <li>Flexible scheduling</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <a href="contact.html" class="btn btn--primary">
+                        <span>Get Started</span>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                            <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                </div>
+                
+                <div class="service-detail__image-wrapper">
+                    <img src="images/service-meal-prep.png" alt="Healthy meal prep containers" class="service-detail__image" loading="lazy">
+                </div>
+            </div>
+        </section>
+        
+        <!-- Process Section -->
+        <section class="process">
+            <div class="process__container">
+                <div class="process__header">
+                    <span class="section-label">How It Works</span>
+                    <h2 class="section-title">The Process</h2>
+                    <p class="section-description">
+                        From initial consultation to the final bite, here's what to expect when you book my services.
+                    </p>
+                </div>
+                
+                <div class="process__steps">
+                    <div class="process-step">
+                        <div class="process-step__number">01</div>
+                        <div class="process-step__content">
+                            <h3 class="process-step__title">Consultation</h3>
+                            <p class="process-step__description">
+                                We discuss your event, preferences, dietary needs, and vision. 
+                                This initial conversation helps me understand exactly what you're looking for.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="process-step">
+                        <div class="process-step__number">02</div>
+                        <div class="process-step__content">
+                            <h3 class="process-step__title">Menu Development</h3>
+                            <p class="process-step__description">
+                                I create a custom menu proposal tailored to your needs. You'll have the 
+                                opportunity to review, provide feedback, and finalize selections.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="process-step">
+                        <div class="process-step__number">03</div>
+                        <div class="process-step__content">
+                            <h3 class="process-step__title">Planning & Sourcing</h3>
+                            <p class="process-step__description">
+                                I handle all the details—sourcing premium ingredients, planning timing, 
+                                and coordinating any additional services needed.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="process-step">
+                        <div class="process-step__number">04</div>
+                        <div class="process-step__content">
+                            <h3 class="process-step__title">Execution</h3>
+                            <p class="process-step__description">
+                                On the day of your event, I arrive early to prepare and cook everything 
+                                fresh. You simply enjoy the experience while I handle all the work.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- FAQ Section -->
+        <section class="faq">
+            <div class="faq__container">
+                <div class="faq__header">
+                    <span class="section-label">Questions</span>
+                    <h2 class="section-title">Frequently Asked</h2>
+                </div>
+                
+                <div class="faq__list">
+                    <details class="faq-item">
+                        <summary class="faq-item__question">
+                            <span>What areas do you serve?</span>
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                                <path d="M6 9L12 15L18 9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </summary>
+                        <div class="faq-item__answer">
+                            <p>
+                                I primarily serve the San Francisco Bay Area, including San Francisco, 
+                                Marin County, the Peninsula, and Silicon Valley. For events outside this 
+                                area, travel arrangements can be made—just ask!
+                            </p>
+                        </div>
+                    </details>
+                    
+                    <details class="faq-item">
+                        <summary class="faq-item__question">
+                            <span>How far in advance should I book?</span>
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                                <path d="M6 9L12 15L18 9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </summary>
+                        <div class="faq-item__answer">
+                            <p>
+                                For private dining, I recommend booking 2-4 weeks in advance. For larger 
+                                events and catering, 4-8 weeks is ideal. However, I occasionally have 
+                                last-minute availability—don't hesitate to reach out!
+                            </p>
+                        </div>
+                    </details>
+                    
+                    <details class="faq-item">
+                        <summary class="faq-item__question">
+                            <span>Can you accommodate dietary restrictions?</span>
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                                <path d="M6 9L12 15L18 9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </summary>
+                        <div class="faq-item__answer">
+                            <p>
+                                Absolutely! I'm experienced in accommodating all dietary needs including 
+                                gluten-free, dairy-free, vegan, vegetarian, keto, and food allergies. 
+                                During our consultation, we'll discuss all requirements to ensure everyone 
+                                enjoys a safe and delicious meal.
+                            </p>
+                        </div>
+                    </details>
+                    
+                    <details class="faq-item">
+                        <summary class="faq-item__question">
+                            <span>What kitchen equipment do you need?</span>
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                                <path d="M6 9L12 15L18 9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </summary>
+                        <div class="faq-item__answer">
+                            <p>
+                                A standard home kitchen with a working stove, oven, and basic cookware is 
+                                typically sufficient. I bring specialized equipment, knives, and any 
+                                additional tools needed. If you have concerns about your kitchen setup, 
+                                let's discuss it during the consultation.
+                            </p>
+                        </div>
+                    </details>
+                    
+                    <details class="faq-item">
+                        <summary class="faq-item__question">
+                            <span>Do you provide wine and beverages?</span>
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                                <path d="M6 9L12 15L18 9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </summary>
+                        <div class="faq-item__answer">
+                            <p>
+                                I can provide wine pairing recommendations and assist with beverage 
+                                selection. For an additional fee, I can also source wines and beverages 
+                                for your event. Alternatively, I'm happy to work with whatever you 
+                                choose to provide.
+                            </p>
+                        </div>
+                    </details>
+                </div>
+            </div>
+        </section>
+        
+        <!-- CTA Section -->
+        <section class="cta-section">
+            <div class="cta-section__container">
+                <div class="cta-section__content">
+                    <h2 class="cta-section__title">Ready to Get Started?</h2>
+                    <p class="cta-section__description">
+                        Let's discuss your culinary needs and create something extraordinary together.
+                    </p>
+                    <div class="cta-section__actions">
+                        <a href="contact.html" class="btn btn--primary btn--large">
+                            <span>Request a Consultation</span>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                                <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__content">
+                <div class="footer__brand">
+                    <span class="footer__logo">Chef Alexander Reed</span>
+                    <p class="footer__tagline">Creating unforgettable culinary experiences, one plate at a time.</p>
+                </div>
+                
+                <nav class="footer__nav" aria-label="Footer navigation">
+                    <a href="home.html" class="footer__nav-link">Home</a>
+                    <a href="about.html" class="footer__nav-link">About</a>
+                    <a href="services.html" class="footer__nav-link">Services</a>
+                    <a href="gallery.html" class="footer__nav-link">Gallery</a>
+                    <a href="contact.html" class="footer__nav-link">Contact</a>
+                </nav>
+            </div>
+            
+            <div class="footer__bottom">
+                <p class="footer__copyright">&copy; 2024 Chef Alexander Reed. All rights reserved.</p>
+                <div class="footer__social">
+                    <a href="#" class="footer__social-link" aria-label="Instagram">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                            <rect x="2" y="2" width="20" height="20" rx="5" stroke="currentColor" stroke-width="2"/>
+                            <circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                    </a>
+                    <a href="#" class="footer__social-link" aria-label="Facebook">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                            <path d="M18 2H15C13.6739 2 12.4021 2.52678 11.4645 3.46447C10.5268 4.40215 10 5.67392 10 7V10H7V14H10V22H14V14H17L18 10H14V7C14 6.73478 14.1054 6.48043 14.2929 6.29289C14.4804 6.10536 14.7348 6 15 6H18V2Z" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- JavaScript -->
+    <script src="main.js"></script>
+</body>
+</html>
