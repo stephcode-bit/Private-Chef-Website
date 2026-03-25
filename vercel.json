@@ -3,6 +3,26 @@
     {
       "src": "/",
       "dest": "/home.html"
+    },
+    {
+      "src": "/home",
+      "dest": "/home.html"
+    },
+    {
+      "src": "/about",
+      "dest": "/about.html"
+    },
+    {
+      "src": "/contact",
+      "dest": "/contact.html"
+    },
+    {
+      "src": "/menu",
+      "dest": "/menu.html"
+    },
+    {
+      "src": "/reservations",
+      "dest": "/reservations.html"
     }
   ]
 }
